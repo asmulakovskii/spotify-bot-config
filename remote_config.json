@@ -1,0 +1,31 @@
+{
+  "permission_settings": {
+    "role_limits": {
+      "viewer": {
+        "max_requests": 2,
+        "cooldown_minutes": 2,
+        "priority_queue": false
+      },
+      "subscriber": {
+        "max_requests": 4,
+        "cooldown_minutes": 1,
+        "priority_queue": false
+      },
+      "vip": {
+        "max_requests": 6,
+        "cooldown_minutes": 0,
+        "priority_queue": true
+      },
+      "moderator": {
+        "max_requests": 10,
+        "cooldown_minutes": 0,
+        "priority_queue": true
+      }
+    }
+  },
+  "bot_settings": {
+    "max_queue_size": 50,
+    "paused": false,
+    "announcement": ""
+  }
+}
