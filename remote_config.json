@@ -26,6 +26,6 @@
   "bot_settings": {
     "max_queue_size": 50,
     "paused": false,
-    "announcement": "Remote manage,ment is working!"
+    "announcement": ""
   }
 }
